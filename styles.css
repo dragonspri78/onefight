@@ -1,0 +1,32 @@
+.game {
+    background-color: #282c34;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.animated {
+    transition: transform 0.5s;
+}
+
+.animated:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    background-color: #61dafb;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #21a1f1;
+}
